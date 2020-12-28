@@ -1,0 +1,28 @@
+nav {
+	.inner-nav-container {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 16px;
+		min-height: 100px;
+		.logo-container {
+			display: flex;
+			align-items: center;
+
+			img {
+				width: 80%;
+			}
+		}
+	}
+
+	.pattern-bg {
+		position: absolute;
+		top: -95px;
+		left: 39px;
+		overflow-x: hidden;
+		z-index: -1;
+
+		img {
+			width: 130%;
+		}
+	}
+}
