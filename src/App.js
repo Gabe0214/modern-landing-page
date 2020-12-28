@@ -8,6 +8,7 @@ function App() {
 	return (
 		<div>
 			<Navbar active={menu} setActive={setMenu} />
+			<h1>hi</h1>
 		</div>
 	);
 }
