@@ -43,3 +43,18 @@
 		}
 	}
 }
+
+.mobile-pattern-container {
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		position: relative;
+		top: -2px;
+		right: -198px;
+		z-index: -1;
+	}
+}

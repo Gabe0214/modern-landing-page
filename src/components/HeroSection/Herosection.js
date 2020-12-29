@@ -2,6 +2,7 @@ import React from 'react';
 import { SectionLayout } from '../SectionLayout/SectionLayout';
 import metric from '../../images/illustration-intro.svg';
 import { PrimaryButton } from '../Button/PrimaryButton';
+import MobilePattern from '../../images/bg-tablet-pattern.svg';
 import './HeroSection.scss';
 
 export const Herosection = () => {
@@ -23,12 +24,17 @@ export const Herosection = () => {
 	};
 
 	return (
-		<SectionLayout
-			contentOne={<MetricGraphs />}
-			contentTwo={<HeroText />}
-			sectionClass={'hero-section'}
-			contentOneClass={'metric-img-container'}
-			contentTwoClass={'text-container'}
-		/>
+		<React.Fragment>
+			<SectionLayout
+				contentOne={<MetricGraphs />}
+				contentTwo={<HeroText />}
+				sectionClass={'hero-section'}
+				contentOneClass={'metric-img-container'}
+				contentTwoClass={'text-container'}
+			/>
+			<div className='mobile-pattern-container'>
+				<img src={MobilePattern} alt='mobile-pattern-bg' />
+			</div>
+		</React.Fragment>
 	);
 };
