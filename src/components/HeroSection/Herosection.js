@@ -1,6 +1,7 @@
 import React from 'react';
 import { SectionLayout } from '../SectionLayout/SectionLayout';
 import metric from '../../images/illustration-intro.svg';
+import { PrimaryButton } from '../Button/PrimaryButton';
 import './HeroSection.scss';
 
 export const Herosection = () => {
@@ -12,6 +13,7 @@ export const Herosection = () => {
 					Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in
 					view.
 				</span>
+				<PrimaryButton placeholder={'Get Started'} />
 			</React.Fragment>
 		);
 	};

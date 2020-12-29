@@ -4,6 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	padding: 0 16px;
+	margin-bottom: 3%;
 
 	.metric-img-container {
 		display: flex;
@@ -27,6 +28,18 @@
 			display: block;
 			font-size: 0.9rem;
 			margin: 1% auto 0 auto;
+		}
+
+		.btn-container {
+			margin: 11% auto 0 auto;
+			width: 60%;
+
+			a {
+				background-color: $bright-red;
+				padding: 1rem 3rem;
+				border-radius: 30px;
+				display: block;
+			}
 		}
 	}
 }
