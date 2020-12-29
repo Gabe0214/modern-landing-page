@@ -39,6 +39,7 @@
 				padding: 1rem 3rem;
 				border-radius: 30px;
 				display: block;
+				font-weight: 700;
 			}
 		}
 	}
@@ -49,6 +50,7 @@
 	bottom: -6px;
 	left: 0;
 	overflow: hidden;
+	z-index: -1;
 
 	img {
 		width: 100%;
