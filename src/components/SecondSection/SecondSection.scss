@@ -1,0 +1,59 @@
+@import '../../utils/variables.scss';
+
+.section-two {
+	display: flex;
+	flex-direction: column;
+	margin-top: 35%;
+
+	.sub-heading {
+		text-align: center;
+		padding-left: 16px;
+		h2 {
+			color: $primary-color;
+			text-align: center;
+			font-size: 1.8rem;
+		}
+
+		span {
+			color: $dark-blue;
+			line-height: 2;
+			width: 90%;
+			display: block;
+			font-size: 1rem;
+			margin: 3% auto 15% auto;
+		}
+	}
+
+	.steps-container {
+		.step {
+			margin-bottom: 12%;
+			h3 {
+				padding: 0.5rem 0;
+				padding-left: 80px;
+				border-top-left-radius: 30px;
+				border-bottom-left-radius: 30px;
+				position: relative;
+				background-color: #ffefeb;
+				font-size: 1rem;
+				color: $primary-color;
+				span {
+					background-color: $bright-red;
+					padding: 0.5rem 1.5rem;
+					border-radius: 50px;
+					position: absolute;
+					top: 0;
+					left: 0;
+					color: #fff;
+				}
+			}
+
+			p {
+				font-size: 0.9rem;
+				color: $dark-blue;
+				line-height: 1.7;
+				margin-top: 3%;
+				padding: 0 16px;
+			}
+		}
+	}
+}
