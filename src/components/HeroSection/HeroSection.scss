@@ -1,0 +1,45 @@
+@import '../../utils/variables.scss';
+
+.hero-section {
+	display: flex;
+	flex-direction: column;
+	padding: 0 16px;
+	margin-bottom: 3%;
+
+	.metric-img-container {
+		display: flex;
+		justify-content: center;
+		img {
+			width: 90%;
+		}
+	}
+
+	.text-container {
+		text-align: center;
+
+		h1 {
+			color: $primary-color;
+		}
+
+		span {
+			color: $dark-blue;
+			line-height: 2;
+			width: 77%;
+			display: block;
+			font-size: 0.9rem;
+			margin: 1% auto 0 auto;
+		}
+
+		.btn-container {
+			margin: 11% auto 0 auto;
+			width: 60%;
+
+			a {
+				background-color: $bright-red;
+				padding: 1rem 3rem;
+				border-radius: 30px;
+				display: block;
+			}
+		}
+	}
+}
