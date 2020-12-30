@@ -35,4 +35,21 @@
 			color: $dark-blue;
 		}
 	}
+
+	.BrainhubCarousel__dots .BrainhubCarousel__dot {
+		background-color: #fff;
+
+		&::before {
+			background-color: #fff;
+			border: 1px solid $bright-red;
+			width: 8px;
+			height: 8px;
+		}
+	}
+
+	.BrainhubCarousel__dots .BrainhubCarousel__dot.BrainhubCarousel__dot--selected {
+		&::before {
+			background-color: $bright-red;
+		}
+	}
 }
