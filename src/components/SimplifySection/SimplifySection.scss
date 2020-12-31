@@ -1,0 +1,34 @@
+@import '../../utils/variables.scss';
+
+.simplify-section {
+	margin-top: 10%;
+	background-color: $bright-red;
+	text-align: center;
+	padding: 0px 16px;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+	P {
+		font-size: 2.5rem;
+		color: #fff;
+		font-weight: 800;
+	}
+
+	.btn-container {
+		margin-top: 5%;
+		.get-started-btn {
+			background-color: #fff;
+			color: $bright-red;
+		}
+	}
+
+	img {
+		position: absolute;
+		top: 70px;
+		left: 0;
+	}
+}

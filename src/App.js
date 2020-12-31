@@ -4,6 +4,7 @@ import './App.scss';
 import { Herosection } from './components/HeroSection/Herosection';
 import { SecondSection } from './components/SecondSection/SecondSection';
 import { CarouselMobile } from './components/Carousel/CarouselMobile';
+import { SimplifySection } from './components/SimplifySection/SimplifySection';
 
 function App() {
 	const [ menu, setMenu ] = useState(false);
@@ -14,6 +15,7 @@ function App() {
 			<Herosection />
 			<SecondSection />
 			<CarouselMobile />
+			<SimplifySection />
 		</div>
 	);
 }
