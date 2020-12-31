@@ -13,7 +13,7 @@
 		background-color: #ffefeb;
 		position: relative;
 		padding: 47px 20px;
-		margin-bottom: 5%;
+		margin-bottom: 1%;
 		text-align: center;
 		margin-left: 5%;
 		margin-right: 5%;
@@ -51,5 +51,11 @@
 		&::before {
 			background-color: $bright-red;
 		}
+	}
+
+	.btn-container {
+		display: flex;
+		justify-content: center;
+		margin-top: 5%;
 	}
 }
