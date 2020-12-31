@@ -1,0 +1,52 @@
+@import '../../utils/variables.scss';
+
+.footer-section {
+	background-color: #1d1e25;
+	padding: 0 16px;
+
+	.input-btn-container {
+		display: flex;
+		padding: 19% 0 12% 0;
+		input {
+			border-radius: 30px;
+			padding-left: 23px;
+			margin-right: 2%;
+			border: none;
+			flex: 1;
+			font-family: 'Be Vietname';
+			font-weight: 500;
+			color: $dark-blue;
+			font-size: 1rem;
+		}
+		.btn-container {
+			width: 24%;
+
+			.get-started-btn {
+				padding: 1rem 0;
+				text-align: center;
+			}
+		}
+	}
+
+	.nav-links-container {
+		display: flex;
+		justify-content: space-around;
+		padding-bottom: 10%;
+
+		.first-half,
+		.second-half {
+			line-height: 2;
+		}
+	}
+
+	.social-links-logo-container {
+		.social-links {
+		}
+
+		.logo {
+			.letters {
+				fill: #fff;
+			}
+		}
+	}
+}
