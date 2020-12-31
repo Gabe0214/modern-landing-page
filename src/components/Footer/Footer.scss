@@ -40,13 +40,32 @@
 	}
 
 	.social-links-logo-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
 		.social-links {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			margin-bottom: 12%;
 		}
 
 		.logo {
 			.letters {
 				fill: #fff;
 			}
+		}
+	}
+
+	.copyright-container {
+		padding: 10% 0;
+
+		p {
+			color: #fff;
+			text-align: center;
+			font-size: 0.9rem;
 		}
 	}
 }
