@@ -5,6 +5,7 @@ import { Herosection } from './components/HeroSection/Herosection';
 import { SecondSection } from './components/SecondSection/SecondSection';
 import { CarouselMobile } from './components/Carousel/CarouselMobile';
 import { SimplifySection } from './components/SimplifySection/SimplifySection';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
 	const [ menu, setMenu ] = useState(false);
@@ -16,6 +17,7 @@ function App() {
 			<SecondSection />
 			<CarouselMobile />
 			<SimplifySection />
+			<Footer />
 		</div>
 	);
 }
