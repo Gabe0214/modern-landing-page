@@ -23,6 +23,11 @@
 			position: absolute;
 			top: -54px;
 			left: 126px;
+
+			@media screen and (max-width: 450px) and (min-width: 413px) {
+				width: 22;
+				left: 145px;
+			}
 		}
 
 		h4 {
