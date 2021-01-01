@@ -44,6 +44,15 @@
 	overflow: hidden;
 	z-index: -1;
 
+	@media only screen and (max-height: 667px) {
+		bottom: -123px;
+	}
+
+	@media only screen and (max-height: 640px) {
+		bottom: -108px;
+		left: -5px;
+	}
+
 	img {
 		width: 100%;
 		position: relative;
