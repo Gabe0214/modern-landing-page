@@ -30,5 +30,13 @@
 		position: absolute;
 		top: 70px;
 		left: 0;
+
+		@media only screen and(max-height: 667px) {
+			top: 26px;
+		}
+
+		@media (max-height: 640px) {
+			top: 15px;
+		}
 	}
 }
