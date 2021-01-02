@@ -38,5 +38,9 @@
 		@media (max-height: 640px) {
 			top: 15px;
 		}
+
+		@media only screen and (max-height: 611px) {
+			top: 3px;
+		}
 	}
 }

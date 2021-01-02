@@ -53,11 +53,19 @@
 		left: -5px;
 	}
 
+	@media only screen and (min-width: 450px) {
+		bottom: 180px;
+	}
+
 	img {
 		width: 100%;
 		position: relative;
 		top: -2px;
 		right: -198px;
 		z-index: -1;
+
+		@media only screen and (min-width: 450px) {
+			right: -265px;
+		}
 	}
 }
