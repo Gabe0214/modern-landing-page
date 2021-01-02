@@ -18,6 +18,10 @@
 		margin-left: 5%;
 		margin-right: 5%;
 
+		@media screen and (min-width: 450px) {
+			padding: 55px 20px;
+		}
+
 		img {
 			width: 24%;
 			position: absolute;
@@ -25,8 +29,13 @@
 			left: 126px;
 
 			@media screen and (max-width: 450px) and (min-width: 413px) {
-				width: 22;
+				width: 22%;
 				left: 145px;
+			}
+
+			@media screen and (min-width: 450px) {
+				left: 160px;
+				width: 20%;
 			}
 		}
 
