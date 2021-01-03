@@ -9,6 +9,11 @@ nav {
 			padding: 0 24px;
 		}
 
+		@media screen and (min-width: 1024px) and (max-width: 1280px) {
+			padding: 0 50px;
+			min-height: 184px;
+		}
+
 		.logo-container {
 			display: flex;
 			align-items: center;
@@ -18,6 +23,10 @@ nav {
 
 				@media screen and (min-width: 768px) {
 					width: 88%;
+				}
+
+				@media screen and (min-width: 1024px) and (max-width: 1280px) {
+					width: 100%;
 				}
 			}
 		}
@@ -35,8 +44,17 @@ nav {
 			left: 93px;
 		}
 
+		@media screen and (min-width: 1024px) and (max-width: 1280px) {
+			top: -95px;
+			left: 654px;
+		}
+
 		img {
 			width: 130%;
+
+			@media screen and (min-width: 1024px) and (max-width: 1280px) {
+				width: 110%;
+			}
 		}
 	}
 }
