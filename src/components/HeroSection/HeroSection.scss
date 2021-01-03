@@ -11,14 +11,27 @@
 		justify-content: center;
 		img {
 			width: 90%;
+
+			@media screen and (min-width: 768px) {
+				width: 79%;
+			}
 		}
 	}
 
 	.text-container {
 		text-align: center;
 
+		@media screen and (min-width: 768px) {
+			padding: 0 24px;
+			margin-top: 5%;
+		}
+
 		h1 {
 			color: $primary-color;
+			@media screen and (min-width: 768px) {
+				width: 58%;
+				margin: 0 auto;
+			}
 		}
 
 		span {
@@ -28,11 +41,19 @@
 			display: block;
 			font-size: 0.9rem;
 			margin: 1% auto 0 auto;
+			@media screen and (min-width: 768px) {
+				margin-top: 4%;
+			}
 		}
 
 		.btn-container {
 			margin: 11% auto 0 auto;
 			width: 60%;
+
+			@media screen and (min-width: 768px) {
+				width: 45%;
+				margin-top: 6%;
+			}
 		}
 	}
 }
@@ -57,6 +78,10 @@
 		bottom: 180px;
 	}
 
+	@media only screen and (min-width: 760px) {
+		bottom: -27px;
+	}
+
 	img {
 		width: 100%;
 		position: relative;
@@ -66,6 +91,11 @@
 
 		@media only screen and (min-width: 450px) {
 			right: -265px;
+		}
+
+		@media only screen and (min-width: 768px) {
+			right: -470px;
+			width: 67%;
 		}
 	}
 }
