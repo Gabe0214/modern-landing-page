@@ -1,3 +1,4 @@
+@import '../../utils/variables.scss';
 nav {
 	.inner-nav-container {
 		display: flex;
@@ -28,6 +29,44 @@ nav {
 				@media screen and (min-width: 1024px) and (max-width: 1280px) {
 					width: 100%;
 				}
+			}
+		}
+
+		/* burger button */
+		.sc-bdfBwQ {
+			@media screen and (min-width: 1024px) {
+				display: none;
+			}
+		}
+
+		.desktop-links {
+			@media screen and (max-width: 1023px) {
+				display: none;
+			}
+			display: flex;
+			align-items: center;
+			flex: 1;
+			justify-content: center;
+
+			li {
+				margin-right: 4%;
+				a {
+					color: $primary-color;
+				}
+			}
+		}
+
+		.btn-container {
+			width: 21%;
+			align-self: center;
+
+			@media screen and (max-width: 1023px) {
+				display: none;
+			}
+
+			.get-started-btn {
+				padding: 1.3rem 2.5rem;
+				text-align: center;
 			}
 		}
 	}
