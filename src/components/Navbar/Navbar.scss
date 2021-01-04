@@ -44,16 +44,32 @@ nav {
 			left: 93px;
 		}
 
-		@media screen and (min-width: 1024px) and (max-width: 1280px) {
-			top: -95px;
-			left: 654px;
+		@media screen and (min-width: 1024px) {
+			position: static;
 		}
 
 		img {
 			width: 130%;
 
-			@media screen and (min-width: 1024px) and (max-width: 1280px) {
-				width: 110%;
+			@media screen and (min-width: 1024px) {
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: -1;
+			}
+
+			@media screen and (min-width: 1024px) and (max-width: 1140px) {
+				width: 66%;
+				position: absolute;
+				top: -80px;
+				right: -54px;
+				z-index: -1;
+			}
+
+			@media screen and (min-width: 1141px) and (max-width: 1280px) {
+				top: -56px;
+				right: -57px;
+				width: 60%;
 			}
 		}
 	}
