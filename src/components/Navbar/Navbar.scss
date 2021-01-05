@@ -1,3 +1,4 @@
+@import '../../utils/variables.scss';
 nav {
 	.inner-nav-container {
 		display: flex;
@@ -7,6 +8,11 @@ nav {
 
 		@media screen and (min-width: 768px) {
 			padding: 0 24px;
+		}
+
+		@media screen and (min-width: 1024px) and (max-width: 1280px) {
+			padding: 0 50px;
+			min-height: 184px;
 		}
 
 		.logo-container {
@@ -19,6 +25,48 @@ nav {
 				@media screen and (min-width: 768px) {
 					width: 88%;
 				}
+
+				@media screen and (min-width: 1024px) and (max-width: 1280px) {
+					width: 100%;
+				}
+			}
+		}
+
+		/* burger button */
+		.sc-bdfBwQ {
+			@media screen and (min-width: 1024px) {
+				display: none;
+			}
+		}
+
+		.desktop-links {
+			@media screen and (max-width: 1023px) {
+				display: none;
+			}
+			display: flex;
+			align-items: center;
+			flex: 1;
+			justify-content: center;
+
+			li {
+				margin-right: 4%;
+				a {
+					color: $primary-color;
+				}
+			}
+		}
+
+		.btn-container {
+			width: 21%;
+			align-self: center;
+
+			@media screen and (max-width: 1023px) {
+				display: none;
+			}
+
+			.get-started-btn {
+				padding: 1.3rem 2.5rem;
+				text-align: center;
 			}
 		}
 	}
@@ -35,8 +83,33 @@ nav {
 			left: 93px;
 		}
 
+		@media screen and (min-width: 1024px) {
+			position: static;
+		}
+
 		img {
 			width: 130%;
+
+			@media screen and (min-width: 1024px) {
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: -1;
+			}
+
+			@media screen and (min-width: 1024px) and (max-width: 1140px) {
+				width: 66%;
+				position: absolute;
+				top: -80px;
+				right: -54px;
+				z-index: -1;
+			}
+
+			@media screen and (min-width: 1141px) and (max-width: 1280px) {
+				top: -56px;
+				right: -57px;
+				width: 60%;
+			}
 		}
 	}
 }
