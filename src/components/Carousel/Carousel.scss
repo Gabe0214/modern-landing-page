@@ -109,6 +109,10 @@
 		display: flex;
 		width: 110%;
 		padding-right: 3rem;
+
+		@media screen and (max-width: 1023px) {
+			display: none;
+		}
 	}
 
 	.btn-container {
