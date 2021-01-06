@@ -4,7 +4,7 @@ import Anisha from '../../images/avatar-anisha.png';
 import Richard from '../../images/avatar-richard.png';
 import Shanai from '../../images/avatar-shanai.png';
 import './Carousel.scss';
-import Carousel, { Dots } from '@brainhubeu/react-carousel';
+import Carousel, { Dots, slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import { PrimaryButton } from '../Button/PrimaryButton';
 export const CarouselMobile = () => {
@@ -53,9 +53,16 @@ export const CarouselMobile = () => {
 		<div className='carousel-section'>
 			<h2>What they've said</h2>
 			<div>
-				<Carousel value={carousel.value} slides={carousel.slides} onChange={onChange} plugins={[ 'fastSwipe' ]} />
+				<Carousel
+					value={carousel.value}
+					slides={carousel.slides}
+					onChange={onChange}
+					plugins={[ 'fastSwipe' ]}
+					className='mobile-carousel'
+				/>
 				<Dots value={carousel.value} onChange={onChange} number={carousel.slides.length} />
 			</div>
+			<div className='desktop-slider'>{carousel.slides.slice(0, 3).map((person) => person)}</div>
 			<PrimaryButton placeholder='Get Started' />
 		</div>
 	);

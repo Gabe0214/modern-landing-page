@@ -26,6 +26,15 @@
 			padding: 82px 20px;
 		}
 
+		@media screen and (min-width: 1024px) and (max-width: 1140px) {
+			align-items: center;
+			width: 29%;
+			flex-shrink: 0;
+			padding: 58px 20px;
+			margin-left: 0;
+			margin-top: 7%;
+		}
+
 		img {
 			width: 24%;
 			position: absolute;
@@ -47,6 +56,12 @@
 				top: -53px;
 				width: 13%;
 			}
+
+			@media screen and (min-width: 1024px) and (max-width: 1140px) {
+				left: auto;
+				top: -30px;
+				width: 20%;
+			}
 		}
 
 		h4 {
@@ -64,7 +79,16 @@
 		}
 	}
 
+	.mobile-carousel {
+		@media screen and (min-width: 1024px) {
+			display: none;
+		}
+	}
+
 	.BrainhubCarousel__dots .BrainhubCarousel__dot {
+		@media screen and (min-width: 1024px) {
+			display: none;
+		}
 		background-color: #fff;
 
 		&::before {
@@ -78,6 +102,16 @@
 	.BrainhubCarousel__dots .BrainhubCarousel__dot.BrainhubCarousel__dot--selected {
 		&::before {
 			background-color: $bright-red;
+		}
+	}
+
+	.desktop-slider {
+		display: flex;
+		width: 110%;
+		padding-right: 3rem;
+
+		@media screen and (max-width: 1023px) {
+			display: none;
 		}
 	}
 
