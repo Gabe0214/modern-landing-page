@@ -15,6 +15,13 @@
 		padding: 0 27px 0 50px;
 	}
 
+	@media screen and (min-width: 1920px) {
+		padding: 0;
+		max-width: 1444px;
+		margin: 15% auto;
+		justify-content: space-between;
+	}
+
 	.sub-heading {
 		text-align: center;
 		padding-left: 16px;
@@ -22,6 +29,12 @@
 		@media screen and (max-width: 1280px) and (min-width: 1024px) {
 			text-align: left;
 			padding-left: 0;
+		}
+
+		@media screen and (max-width: 1920px) {
+			padding: 0;
+			text-align: left;
+			width: 28%;
 		}
 		h2 {
 			color: $primary-color;
@@ -45,14 +58,26 @@
 				font-size: 1.2rem;
 				width: 88%;
 			}
+
+			@media screen and (max-width: 1920px) {
+				width: 100%;
+				margin: 5% 0;
+			}
 		}
 	}
 
 	.steps-container {
+		@media screen and (min-width: 1920px) {
+			width: 38%;
+		}
 		.step {
 			margin-bottom: 12%;
 			@media screen and (min-width: 768px) {
 				padding: 0 17px;
+			}
+
+			@media screen and (min-width: 1920px) {
+				padding: 0;
 			}
 			h3 {
 				padding: 0.5rem 0;
@@ -67,6 +92,12 @@
 				@media screen and (min-width: 768px) {
 					text-align: center;
 					padding-left: 0;
+				}
+
+				@media screen and (min-width: 1920px) {
+					text-align: left;
+					padding-left: 95px;
+					background-color: transparent;
 				}
 				span {
 					background-color: $bright-red;
@@ -88,6 +119,12 @@
 
 				@media screen and (min-width: 768px) {
 					font-size: 1.1rem;
+				}
+
+				@media screen and (min-width: 1920px) {
+					font-size: 1.2rem;
+					line-height: 1.9;
+					padding: 0;
 				}
 			}
 		}
