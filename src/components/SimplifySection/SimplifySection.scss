@@ -12,7 +12,7 @@
 	align-items: center;
 	position: relative;
 
-	@media screen and (min-width: 1024px) and (max-width: 1140px) {
+	@media screen and (min-width: 1024px) {
 		padding: 0 64px;
 		height: 40vh;
 		flex-direction: row;
@@ -24,8 +24,8 @@
 		color: #fff;
 		font-weight: 800;
 
-		@media screen and (min-width: 1024px) and (max-width: 1140px) {
-			width: 62%;
+		@media screen and (min-width: 1024px) {
+			width: 49%;
 			text-align: left;
 		}
 	}
@@ -33,9 +33,13 @@
 	.btn-container {
 		margin-top: 5%;
 
-		@media screen and (min-width: 1024px) and (max-width: 1140px) {
+		@media screen and (min-width: 1024px) {
 			width: 24%;
-			margin-top: 0%;
+			margin: 0%;
+		}
+
+		@media screen and (min-width: 1280px) {
+			width: 20%;
 		}
 		.get-started-btn {
 			background-color: #fff;

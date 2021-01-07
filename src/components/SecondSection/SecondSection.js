@@ -26,9 +26,7 @@ export const SecondSection = () => {
 	const SubText = () => {
 		return (
 			<React.Fragment>
-				<h2>
-					What's different <br />about Manage?
-				</h2>
+				<h2>What's different about Manage?</h2>
 				<span>
 					Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for
 					modern digital product teams.
