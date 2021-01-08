@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionLayout } from '../SectionLayout/SectionLayout';
+import desktopBgPattern from '../../images/bg-simplify-section-desktop.svg';
 import './SecondSection.scss';
-
 export const SecondSection = () => {
 	const steps = [
 		{
