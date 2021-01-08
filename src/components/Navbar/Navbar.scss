@@ -127,6 +127,12 @@ nav {
 				right: -74px;
 				width: 50%;
 			}
+
+			@media screen and (min-width: 2560px) {
+				top: -467px;
+				right: -126px;
+				width: 48%;
+			}
 		}
 	}
 }

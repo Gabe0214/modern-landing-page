@@ -60,9 +60,10 @@
 				width: 88%;
 			}
 
-			@media screen and (max-width: 1920px) {
+			@media screen and (min-width: 1920px) {
 				width: 100%;
-				margin: 5% 0;
+				margin: 3% 0;
+				font-size: 1.2rem;
 			}
 		}
 	}
